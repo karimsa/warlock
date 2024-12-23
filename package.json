@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "private": false,
   "name": "@karimsa/warlock",
   "version": "0.0.0",
   "description": "Redis-based mutex library.",
