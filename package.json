@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "@karimsa/warlock",
+  "version": "0.0.0",
+  "description": "Redis-based mutex library.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "tsc": "tsc",
+    "format": "prettier --write src"
+  },
+  "repository": "https://github.com/karimsa/warlock",
+  "author": "Karim Alibhai",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ioredis": "5.0.0",
+    "@types/uuid": "10.0.0",
+    "esbuild": "0.24.2",
+    "prettier": "3.4.2",
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "uuid": "11.0.3"
+  }
+}
