@@ -7,9 +7,11 @@
   "name": "@karimsa/warlock",
   "version": "0.0.0",
   "description": "Redis-based mutex library.",
+  "types": "types",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "scripts": {
+    "prebuild": "tsc",
     "build": "node esbuild.mjs",
     "tsc": "tsc",
     "format": "prettier --write src"
