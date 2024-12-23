@@ -1,6 +1,5 @@
 {
   "type": "module",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -28,5 +27,6 @@
   },
   "dependencies": {
     "uuid": "11.0.3"
-  }
+  },
+  "packageManager": "yarn@4.5.3"
 }
