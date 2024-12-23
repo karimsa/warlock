@@ -4,9 +4,9 @@
     "access": "public"
   },
   "name": "@karimsa/warlock",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Redis-based mutex library.",
-  "types": "types",
+  "types": "types/index.d.ts",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "scripts": {
